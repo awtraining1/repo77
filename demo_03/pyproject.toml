@@ -1,0 +1,9 @@
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+extend-exclude = ["legacy_customer_report.py"]
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+[tool.mypy]
+python_version = "3.10"
+strict = true
